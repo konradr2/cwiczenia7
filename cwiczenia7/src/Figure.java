@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public interface Figure {
+import java.util.ArrayList;
+
+public interface Figure {
+    double getPerimeter();
+    double getArea();
+
+    String getType();
+
 }
